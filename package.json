@@ -1,0 +1,17 @@
+{
+  "name": "guidtemplate",
+  "version": "0.0.1",
+  "dependencies": {
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "scripts": {
+    "test": "tape test/**/*.js",
+    "start:guid": "func run ./guidTemplate",
+    "start:parser": "func run ./urlFormParser",
+    "build": "funcpack pack ./",
+    "clean": "funcpack unpack ./"
+  }
+}
